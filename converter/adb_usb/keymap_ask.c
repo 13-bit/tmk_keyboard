@@ -31,7 +31,7 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      *                     | power |
      *                     +-------+
      * +---+---+---+---+---+---+---+---+---+---+---+---+---+-----+ +---+---+---+---+
-     * |esc| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = | bks | |clr| = | / | * |
+     * |esc| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | - | = | del | |clr| = | / | * |
      * +---------------------------------------------------------+ +---+---+---+---+
      * | tab | q | w | e | r | t | y | u | i | o | p | [ | ] |   | | 7 | 8 | 9 | + |
      * +-----------------------------------------------------+   | +---+---+---+---+
@@ -43,8 +43,8 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * +---------------------------------------------------------+ +-------+---+---+
      */
       KEYMAP_M0116_ANSI(
-                                          NO,
-        ESC,  F1,    F2,    F3,    F4,    F5,    F6,    F7,    F8,    F9,    F10,   F11,  F12,  BSPC,         TRNS,   TRNS,   TRNS,   MUTE,
+                                          TRNS,
+        ESC,  F1,    F2,    F3,    F4,    F5,    F6,    F7,    F8,    F9,    F10,   F11,  F12,  DEL,          TRNS,   TRNS,   TRNS,   MUTE,
         TAB,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS, TRNS,               TRNS,   TRNS,   TRNS,   VOLU,
         LCTL, TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS, ENT,                TRNS,   TRNS,   TRNS,   VOLD,
         LSFT, TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  TRNS,  RSFT,                     TRNS,   TRNS,   TRNS,
