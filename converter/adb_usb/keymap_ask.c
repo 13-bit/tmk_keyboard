@@ -18,12 +18,12 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * +---------------------------------------------------------+ +-------+---+---+
    */
     KEYMAP_M0116_ANSI(
-                            NO,
+                            EJCT,
       ESC,  1,  2,  3,  4,  5,  6,  7,  8,  9,  0,    MINS, EQL,  BSPC,               FN0,  EQL, PSLS,  PAST,
-      TAB,  Q,  W,  E,  R,  T,  Y,  U,  I,  O,  P,    LBRC, RBRC,                     P7,   P8,   P9,   PPLS,
-      LCTL, A,  S,  D,  F,  G,  H,  J,  K,  L,  SCLN, QUOT, ENT,                      P4,   P5,   P6,   PMNS,
-      LSFT, Z,  X,  C,  V,  B,  N,  M,  COMM,   DOT,  SLSH, RSFT,                     P1,   P2,   P3,
-      LCAP, LALT,   LGUI,   GRV,        SPC,          BSLS, LEFT, DOWN, UP, RGHT,     P0,   PDOT, PENT
+      TAB,  Q,  W,  E,  R,  T,  Y,  U,  I,  O,  P,    LBRC, RBRC,                     7,   8,   9,      PPLS,
+      LCTL, A,  S,  D,  F,  G,  H,  J,  K,  L,  SCLN, QUOT, ENT,                      4,   5,   6,      PMNS,
+      LSFT, Z,  X,  C,  V,  B,  N,  M,  COMM,   DOT,  SLSH, RSFT,                     1,   2,   3,
+      LCAP, LALT,   LGUI,   GRV,        SPC,          BSLS, LEFT, DOWN, UP, RGHT,     0,   DOT, ENT
     ),
 
     /* Layer 1: Media Controls
